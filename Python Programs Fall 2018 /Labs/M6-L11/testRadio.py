@@ -1,0 +1,28 @@
+from radio import radio
+
+r1 = radio(1,1)
+r1.turnOn()
+print(r1)
+r1.volumeUp()
+r1.volumeUp()
+r1.volumeUp()
+print(r1)
+r1.stationUp()
+r1.stationUp()
+r1.stationUp()
+r1.stationUp()
+r1.stationUp()
+r1.stationUp()
+r1.stationUp()
+r1.stationUp()
+print(r1)
+r1.turnOff()
+print(r1)
+r1.volumeUp()
+r1.volumeUp()
+print(r1)
+r1.stationDown()
+r1.stationDown()
+print(r1)
+
+
